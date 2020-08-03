@@ -17,12 +17,12 @@
     @endif
 
     <div class="content">
-        <img src="/img/pizza-house.jpg" alt="pizza house logo" class="pizza-house-logo">
+        <img src="/img/pizza-house.png" alt="pizza house logo" class="pizza-house-logo">
         <div class="title m-b-md">
             The Pizza House
         </div>
         <p class="mssg">{{ session('mssg') }}</p>
-        <a href="/pizzas/create">Order a Pizza</a>
+        <a href="{{ route('pizzas.create') }}">Order a Pizza</a>
         
     </div>
 </div>
